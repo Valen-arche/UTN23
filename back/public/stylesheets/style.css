@@ -1,0 +1,109 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Ajusta el padding según tus necesidades */
+  background-color: #ac7bd4;
+  color: #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header img {
+  max-width: 20vw;
+  max-height: 20vw;
+  padding: 1vmin;
+  position: center; /* Ajusta el tamaño del logo */
+ 
+}
+
+
+.container{
+  margin: auto;
+  margin-top: 15vmin;
+  width: 100%;
+}
+
+.container-predicciones{
+  margin: auto;
+  margin-top: 5vmin;
+  width: 100%;
+}
+
+
+.row{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+.row-predicciones{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin-top: 5vmin;
+}
+
+.col-7{
+  text-align: start;
+}
+
+.col-7 h3{
+  font-size: 45px;
+}
+
+.col-5{
+  text-align: end;
+}
+
+form{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 6vmin;
+}
+
+.btn{
+  width: fit-content;
+  margin: auto;
+  border: none;
+  background-color: #ac7bd4;
+}
+
+.btn:hover{
+  width: fit-content;
+  margin: auto;
+  border: none;
+  background-color: #8c00fe;
+}
+
+textarea{
+  min-height: 35vmin;
+}
+
+th, td{
+  text-align: start;
+}
+
+.row-user{
+  display: flex;
+  padding-right: 5vmin;
+}
+
+.row-user p{
+font-size: 25px;
+margin: auto;
+}

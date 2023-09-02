@@ -1,0 +1,47 @@
+<div class="container-predicciones" >
+  <div class="row-user" >
+    <div class="col">
+        <p class="text-right">Hola {{user}}</p>
+         </div>
+        <a class="btn btn-danger" href="/admin/login/logout"> <i class="fas fa-sign-out-alt"></i>
+        </a>
+  </div>
+  <div class="row-predicciones">
+    <div class="col-7">
+      <h3> Predicciones</h3>
+    </div>
+    <div class="col-5 text-end">
+      <a class="btn btn-success" href="/admin/predicciones/agregar">
+        <i class="fa fa-plus" aria-hidden="true">
+        </i> 
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <table class="table">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Nombre</th>
+            <th scope="col">Prediccion</th>
+            <th scope="text-end">Acciones</th>
+          </tr>
+     
+    {{#each predicciones}}
+    <tr>
+            <td>{{user}}</td>
+             <td>{{body}}</td>
+            <td class="text-end">
+              <a class="btn btn-secondary" href="/admin/predicciones/modificar/{{id}}">
+              <i class="fa fa-pencil" aria-hidden="true">
+              </i>
+              </a>
+              <a class="btn btn-secondary" href="/admin/predicciones/eliminar/{{id}}">
+                <i class="fa fa-trash" aria-hidden="true">
+                </i>
+              </a>
+            </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</div>
