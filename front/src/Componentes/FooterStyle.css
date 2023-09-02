@@ -1,0 +1,31 @@
+.container{
+    color: black;
+    height: auto;
+    width: auto;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin: auto;
+    font-size: 10px;
+}
+
+footer .container{
+    display: flex;
+    text-align: center;
+    margin:  auto;
+    font-size: 10px;
+    color: rgb(110, 110, 110);
+}
+
+footer .container p{
+    display: flex;
+    text-align: center;
+    margin:  auto;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Geraldine';
+  src: local('Geraldine'), url('./../public/Geraldine\ Regular.ttf') format('truetype');
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  font-family:'Geraldine' ;
+}
+
+html {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.headerHome{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1{
+  font-size: 65px;
+  margin: 0 auto;
+}
+
+.headerHome p {
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.login{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+ p{
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 800
+}
+
+.home-container button{
+  width: fit-content;
+  padding: 2.5vmin 3vmin;
+  margin:5vmin auto;
+  border: none;
+  border-radius: 50px;
+  background-color: #ac7bd4;
+
+}
+
+.home-container button a{
+  color: white;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.containerservicios p {
+font-size: 20px;
+color: rgb(103, 0, 105);
+justify-content:first baseline;
+padding: 10%;
+}

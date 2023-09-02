@@ -1,0 +1,36 @@
+.Nav{
+    list-style: none;
+    background-color: #ac7bd4;
+
+    margin-bottom: 5rem;
+  }
+  
+  .Nav ul{
+    
+    width: 70vw;
+    margin: auto;
+      list-style: none;
+      text-decoration: none;
+    display: flex;
+   justify-content: space-between;
+   min-width: fit-content;
+    }
+   
+    .Nav li a{
+    font-size: 10px;
+    text-decoration: none;
+    color:rgb(16, 16, 16);
+    display: flex;
+    min-width: fit-content;
+    font-family:'Lucida Sans'
+  }
+  .Nav li a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.5ms;
+    color:white;
+    display: flex;
+    min-width: fit-content;
+    font-family:'Lucida Sans';
+    
+  }
